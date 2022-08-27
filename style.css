@@ -1,18 +1,22 @@
-#canvas1{
+body{
+    background: black;
+}
+#continer{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 800px;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
-}
-.controls{
-    position: absolute;
-    z-index: 10;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.controls, .select, option {
+    top: 50%;
+    left: 50%; 
     font-size: 25px;
+}
+#canvas1{
+    position: relative;
+    width: 800px;
+    height: 700px;
+}
+#slider{
+    width: 800px;
+}
+p{
+    color: white;
 }
